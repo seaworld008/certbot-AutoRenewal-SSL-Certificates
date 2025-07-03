@@ -1,0 +1,38 @@
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+/tmp/
+
+# 备份文件
+*.bak
+*.backup
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 证书文件（敏感信息）
+*.pem
+*.key
+*.crt
+*.csr
+
+# 锁文件
+*.lock
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 本地配置文件
+config.local
+*.local
+
+# 个人配置
+cert-manager.local.sh 
